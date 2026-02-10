@@ -1109,7 +1109,7 @@ class Klein
      */
     public function skipRemaining()
     {
-        throw new DispatchHaltedException(null, DispatchHaltedException::SKIP_REMAINING);
+        throw new DispatchHaltedException('', DispatchHaltedException::SKIP_REMAINING);
     }
 
     /**
